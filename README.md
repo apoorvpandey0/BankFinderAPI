@@ -17,3 +17,6 @@ you can visit the Admin Panel at https://bankfinderapi.herokuapp.com/admin and u
 ### Get banks using combination of properties
 1. https://bankfinderapi.herokuapp.com/?search=Allahabad&ordering=state
 2. https://bankfinderapi.herokuapp.com/?search=Tikamgarh&ordering=bank_id
+### Some other points
+1. You can use the "filters" option on the api page to browse the API.
+2. To get the data in JSON format use the "GET" button and then select JSON.
