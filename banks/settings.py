@@ -25,7 +25,7 @@ SECRET_KEY = '02s3-dvv%ft4&t3cjn23@&eexkp+s7#7l&y@&(2s^@vuq3bp23'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost','bankfinderapi.herokuapp.com']
 
 
 # Application definition
