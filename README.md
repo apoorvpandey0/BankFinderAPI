@@ -20,3 +20,4 @@ you can visit the Admin Panel at https://bankfinderapi.herokuapp.com/admin and u
 ### Some other points
 1. You can use the "filters" option on the api page to browse the API.
 2. To get the data in JSON format use the "GET" button and then select JSON.
+3. This is a development build and by no means is to be used as it is in a production environment. 
