@@ -9,4 +9,11 @@ you can visit the Admin Panel at https://bankfinderapi.herokuapp.com/admin and u
 3. https://bankfinderapi.herokuapp.com/?city=BHOPAL
 4. https://bankfinderapi.herokuapp.com/?bank_id=10
 ### Get banks using search
-1. https://bankfinderapi.herokuapp.com/?state=ASSAM
+1. https://bankfinderapi.herokuapp.com/?search=Allahabad
+2. https://bankfinderapi.herokuapp.com/?search=tikamgarh
+###  Get banks in a particular ordering
+1. https://bankfinderapi.herokuapp.com/?ordering=bank_id
+2. https://bankfinderapi.herokuapp.com/?ordering=state
+### Get banks using combination of properties
+1. https://bankfinderapi.herokuapp.com/?search=Allahabad&ordering=state
+2. https://bankfinderapi.herokuapp.com/?search=Tikamgarh&ordering=bank_id
