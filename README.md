@@ -2,7 +2,8 @@
 Live version : https://bankfinderapi.herokuapp.com/
 This is an RESTful API for finding banks using their IFSC code or any properties such as Name,Branch,State,Bank_id and City
 you can visit the Admin Panel at https://bankfinderapi.herokuapp.com/admin and use "admin" as both username and password to gain access.
-## Examples
+
+## REST API examples
 ### Get bank by IFSC code or any other property 
 1. https://bankfinderapi.herokuapp.com/?ifsc=ABHY0065001
 2. https://bankfinderapi.herokuapp.com/?state=ASSAM
@@ -21,3 +22,12 @@ you can visit the Admin Panel at https://bankfinderapi.herokuapp.com/admin and u
 1. You can use the "filters" option on the api page to browse the API.
 2. To get the data in JSON format use the "GET" button and then select JSON.
 3. This is a development build and by no means is to be used as it is in a production environment. 
+
+## Graphql demo @ /graphql
+```
+query{
+  allBanks {
+    bankName
+  }
+}
+```
